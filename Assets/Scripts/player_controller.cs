@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class movement : MonoBehaviour
+public class player_controller : MonoBehaviour
 {
     public float moveSpeed;
     public Rigidbody2D rb;
