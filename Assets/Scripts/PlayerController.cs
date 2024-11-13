@@ -23,7 +23,6 @@ public class PlayerController : MonoBehaviour
     }
 
     void OnMove(InputValue value) {
-        Debug.Log("onMove was called");
         moveInput = value.Get<Vector2>();
     }
 }
